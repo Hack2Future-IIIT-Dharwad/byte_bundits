@@ -20,22 +20,26 @@ step 2: ESRGAN (Enhanced Super-Resolution Generative Adversarial Network) is a d
 
 STEP3:FPGANv1.3 (Feature-Preserving Generative Adversarial Network) is a GAN-based model tailored for high-quality face restoration from low-resolution or degraded images. Unlike basic GANs, FPGAN focuses on preserving facial features while enhancing overall image quality. It combines a global restoration network with a local network dedicated to maintaining important facial details (eyes, nose, mouth). By training on paired low- and high-quality images, FPGAN can generate sharp, realistic faces. FPGAN v1.3 is widely used for image editing, restoration, and applications needing high fidelity in facial features, like photo restoration and video enhancement..
 
-here is the results 
-
-
 ### Before
-![Before Image](images/before_image.jpg)
+![Before Image](input1.jpg)
 
 ### After
-![After Image](images/after_image.jpg)  
+![After Image](output1.png)  
 
 
 
 ### Before
-![Before Image](images/before_image.jpg)
+![Before Image](input2.jpg)
 
 ### After
-![After Image](images/after_image.jpg)  
+![After Image](output3.png)  
+
+
+### Before
+![Before Image](input3.jpg)
+
+### After
+![After Image](output3.png)  
 
 
 
