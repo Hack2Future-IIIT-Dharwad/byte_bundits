@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploader</title>
+    <link rel="stylesheet" href="static\style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <h1 style="color: black;">Elevate Your Images with Advanced AI Upscaling</h1>
+    </header>
+
+    <div class="container">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <div id="upload-box" class="upload-box">
+                <p style="margin: 50px;font-size: 2rem;font-family: Georgia, 'Times New Roman', Times, serif;">
+                    Drag & Drop Image Here
+                </p>
+                <div class="arrow-animation">&#x2193;</div>
+                <input type="file" id="file-input" name="image" hidden accept="image/*" required>
+            </div>
+            <div class="upload-options">
+                <button type="button" onclick="document.getElementById('file-input').click()">Browse File</button>
+                <button type="submit" id="next-button" class="next-button">Enhance</button>
+            </div>
+        </form>
+
+        <div id="output-section" class="output-section hidden">
+            <h2>Processed Images</h2>
+            <div class="output-images">
+                <div class="image-container">
+                    <img id="enhanced-image" src={{name}} alt="Enhanced Output">
+                </div>
+                <!-- From Uiverse.io by Na3ar-17 --> 
+                
+            </div>
+        </div>
+    </div>
+    <div class="upscale">
+                 <span>   <img src="static\\WhatsApp Image 2024-10-27 at 02.30.22_9d1121bc.jpg" alt="input" style="width: 220px;height: 200px;margin-left: 30px;"></span>
+                 
+                 <span>     <img src="static\\output_image (6).png" alt="output" style="width: 220px;height: 200px;margin-left: 30px;"></span><br>
+                 <span style="color: rgb(249, 243, 243);">Input</span> <span style="color: rgb(245, 239, 239);margin-left: 50px;"\n>Output</span>
+                </div>
+                <div class="upscale1">
+                    <span>     <img src="static\\WhatsApp Image 2024-10-27 at 02.30.11_9861ae26.jpg" alt="input" style="width: 220px;height: 200px;margin-left: 30px;margin-top: 30px;margin-left: 30px;"></span>
+                    
+                    <span>     <img src="static\\output_image (8).png" alt="output" style="width: 220px;height: 200px;margin-left: 30px;margin-top: 30px;"\n></span><br>
+                    <span style="color: rgb(249, 243, 243);">Input</span><span style="color: rgb(245, 239, 239);margin-left: 50px;">Output</span>
+                </div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Byte-Bundits. All rights reserved.</p>
+    </footer>
+</body>
+</html>

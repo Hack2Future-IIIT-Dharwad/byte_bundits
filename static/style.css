@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px;
+}
+header{
+    background-color: #ff6347;
+    border-radius: 10px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.upload-box {
+    width: 800px;
+    height: 250px;
+    border: 5px dashed #ddd;
+    position: relative;
+    max-width: 1000px;
+    text-align: center;
+    background:linear-gradient(to right,#ebeae9 0%,skyblue 100%);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+.upload-box:hover {
+    border-color: #61aff8;
+    background:(to right,#04f104 0%,rgb(4, 175, 243) 100%);
+}
+.arrow-animation{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #e8eef3;
+    position: absolute;
+    cursor: grab;
+    transition: transform 0.3s ease-in-out;
+}
+
+.upload-options button {
+    margin: 10px;
+    width: 270px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    background:linear-gradient(to right,#ff6347 0%, #1e90ff 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.upload-options button:hover {
+    background-color: #0a47ec;
+}
+
+.output-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px 0;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.output-section.hidden {
+    display: none;
+}
+
+.output-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container {
+    text-align: center;
+}
+#enhanced-image{
+    max-width: 700px;
+    padding: 20px;
+    height: auto;
+}
+
+.download-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: palevioletred;
+    width: 1500px;
+    height: 70px;
+    margin:auto ;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    border-radius: 10px ;
+}
