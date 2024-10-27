@@ -18,7 +18,11 @@ BM3D (Block-Matching and 3D Filtering) is a powerful denoising algorithm, partic
 
 step 2: ESRGAN (Enhanced Super-Resolution Generative Adversarial Network) is a deep learning model that improves low-resolution images by generating high-resolution outputs. Building on SRGAN, it uses a Residual-in-Residual Dense Block (RRDB) to capture finer details, while a GAN structure helps create realistic textures. ESRGAN incorporates perceptual loss, adversarial loss, and content loss for high-quality outputs, and uses a discriminator to ensure sharp, realistic images. Its combination of texture generation and fine-detail preservation makes ESRGAN popular in video game upscaling, media restoration, and AI art applications
 
-STEP3:FPGANv1.3 (Feature-Preserving Generative Adversarial Network) is a GAN-based model tailored for high-quality face restoration from low-resolution or degraded images. Unlike basic GANs, FPGAN focuses on preserving facial features while enhancing overall image quality. It combines a global restoration network with a local network dedicated to maintaining important facial details (eyes, nose, mouth). By training on paired low- and high-quality images, FPGAN can generate sharp, realistic faces. FPGAN v1.3 is widely used for image editing, restoration, and applications needing high fidelity in facial features, like photo restoration and video enhancement..
+STEP3:FPGANv1.3 (Feature-Preserving Generative Adversarial Network) is a GAN-based model tailored for high-quality face restoration from low-resolution or degraded images. Unlike basic GANs, FPGAN focuses on preserving facial features while enhancing overall image quality. It combines a global restoration network with a local network dedicated to maintaining important facial details (eyes, nose, mouth). By training on paired low- and high-quality images, FPGAN can generate sharp, realistic faces. FPGAN v1.3 is widely used for image editing, restoration, and applications needing high fidelity in facial features, like photo restoration..
+
+here is plantuml chart-
+
+![flow chart](plantuml.jpg)
 
 ### Before
 ![Before Image](input1.jpg)
