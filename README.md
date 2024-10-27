@@ -1,1 +1,5 @@
-# byte_bundits
+<<<<<<< HEAD
+(Your changes)
+=======
+(Changes from the remote)
+>>>>>>> (commit hash)
