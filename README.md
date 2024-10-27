@@ -2,7 +2,7 @@
 
 ## UI
 
-![link](https://drive.google.com/file/d/1HdOQKMx94qECYvw0icVBc3s7Wi8HLmmX/view?usp=sharing)
+[download pdf](https://drive.google.com/file/d/1HdOQKMx94qECYvw0icVBc3s7Wi8HLmmX/view?usp=sharing)
 
 ## Description
 This application leverages advanced denoising and upscaling algorithms to improve the quality of low-resolution images. The implemented techniques include BM3D (Block-Matching and 3D Filtering), ESRGAN (Enhanced Super-Resolution Generative Adversarial Network), and FPGAN v1.3 (Feature-Preserving Generative Adversarial Network). These methods ensure high-quality image enhancement, preserving fine details and realistic textures.
