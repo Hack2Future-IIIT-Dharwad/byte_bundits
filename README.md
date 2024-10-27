@@ -85,7 +85,7 @@ This application leverages advanced denoising and upscaling algorithms to improv
 MAIN STEP = After taking an input image, it is divided into smaller sections called "packs." Each model analyzes these packs individually to produce high-quality output.
 
 Explanation:
-Input Image: You start with a single high-resolution image.
+Input Image: We start with a single high-resolution image.
 Dividing into Packs: This image is segmented into smaller pieces (packs) to make processing easier and more efficient.
 Individual Analysis: Each pack is analyzed separately by the chosen model(s). This allows for more detailed processing, as the model can focus on smaller areas of the image.
 Output Quality: By handling the image in these smaller sections, the models can generate higher-quality results, enhancing clarity and detail in the final output.
