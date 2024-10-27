@@ -58,21 +58,21 @@ STEP3:FPGANv1.3 (Feature-Preserving Generative Adversarial Network) is a GAN-bas
 To set up and run the application locally, follow these steps:
 
 ```bash
-# Clone the repository
+
 git clone https://github.com/Hack2Future-IIIT-Dharwad/Byte_bundits.git
 
-# Navigate to the project directory
+
 cd your-repo
 
-# Install dependencies
+
 pip install -r requirements.txt
 
-# Start the Flask server
+
 python app.py
 >>>>>>> 4f898874b264cc4917769dc45c75c37259696a23
 =======
 
-# Image Upscaling Application
+
 
 ## Description
 This application leverages advanced denoising and upscaling algorithms to improve the quality of low-resolution images. The implemented techniques include BM3D (Block-Matching and 3D Filtering), ESRGAN (Enhanced Super-Resolution Generative Adversarial Network), and FPGAN v1.3 (Feature-Preserving Generative Adversarial Network). These methods ensure high-quality image enhancement, preserving fine details and realistic textures.
