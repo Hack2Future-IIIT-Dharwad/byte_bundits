@@ -24,7 +24,7 @@ STEP3:FPGANv1.3 (Feature-Preserving Generative Adversarial Network) is a GAN-bas
 ![Before Image](input1.jpg)
 
 ### After
-![After Image](output1.png)  
+![After Image](outpu1.png)  
 
 
 
